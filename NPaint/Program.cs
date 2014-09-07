@@ -13,6 +13,7 @@ namespace NPaint
         [STAThread]
         static void Main()
         {
+            // Some locak changes :)
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainWindow());
